@@ -8,7 +8,7 @@ We provided a Makefile. On Linux or Mac, a simple
 
 should be all that is required.
 
-If you're on Windows, we recommend installing and using the [https://www.msys2.org/](MSYS2 tools and related compiler). In this case, you'll probably run
+If you're on Windows, we recommend installing and using the [https://www.msys2.org](MSYS2 tools and related compiler). In this case, you'll probably run
 
 `mingw32-make`
 
