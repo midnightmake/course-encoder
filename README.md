@@ -27,3 +27,5 @@ will generate 4 bitmaps beginning with the filename `mycourse`, with the values 
 Only values between `0` and `63` are accepted.
 
 In addition to the course itself, each page is rendered with a footer containing the page number, the total number of pages, the value encoded, and the intended travel direction.
+
+For more details on constructing the courses and printing with the proper margins, see the [guide](https://www.midnightmake.com/pages/barcode-courses) on generating barcode courses.
