@@ -438,9 +438,10 @@ bool saveBitmapToFile(char *filename, Bitmap *bitmap)
 void printUsageAndExit()
 {
 	printf("usage:   course-encoder <output-name> <byte 0> ... [byte n-1]\n");
-	printf("example: course-encoder bytes 5 255 180\n\n");
+	printf("example: course-encoder bytes 5 21 63\n\n");
 	printf("This utility generates bitmap file(s) encoding the given value(s) with\n");
 	printf("one value on each page. When printed, these pages can be read by the\n");
-	printf("Pocket Bot's reflectance sensors as it drives over them.\n");
+	printf("Pocket Bot's reflectance sensors as it drives over them. Only values\n");
+	printf("between 0 and 63 inclusive are allowed.\n");
 	exit(0);
 }
